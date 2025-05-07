@@ -1,0 +1,50 @@
+name: bookstore_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.25.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  google_sign_in: ^6.1.5
+  flutter_facebook_auth: ^6.0.4
+
+  # Ảnh & media
+  image_picker: ^1.1.1
+  cached_network_image: ^3.3.1
+
+  # Quản lý trạng thái
+  provider: ^6.1.2
+
+  # Tiện ích khác
+  fluttertoast: ^8.2.4
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.2.1
+  url_launcher: ^6.2.5
+  intl: ^0.18.1
+  flutter_spinkit: ^5.2.0
+
+  # Icon
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logos/
+    - assets/images/books/
+    - assets/images/auth/
+    - assets/icons/
